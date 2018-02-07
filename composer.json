@@ -1,0 +1,22 @@
+{
+    "name": "mindkomm/theme-lib-icons",
+    "type": "library",
+    "description": "Collection of icon sprite helper functions for WordPress themes",
+    "license": "MIT",
+    "require": {
+      "mindkomm/theme-lib-mix": "dev-master",
+      "php": ">=7.0.0"
+    },
+    "autoload": {
+      "files": [
+        "autoload.php"
+      ]
+    },
+    "authors": [
+        {
+            "name": "Lukas Gaechter",
+            "email": "lukas.gaechter@mind.ch",
+            "homepage": "https://www.mind.ch"
+        }
+    ]
+}
