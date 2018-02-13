@@ -4,7 +4,7 @@
     "description": "Collection of icon sprite helper functions for WordPress themes",
     "license": "MIT",
     "require": {
-      "mindkomm/theme-lib-mix": "dev-master",
+      "mindkomm/theme-lib-mix": "^1.0.0",
       "php": ">=7.0.0"
     },
     "autoload": {
