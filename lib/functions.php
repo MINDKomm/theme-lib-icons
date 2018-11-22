@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Get an icon
+ * Gets an icon.
  *
  * This function is a wrapper that makes it easier to include an icon by only providing the name of the icon and
  * not the whole path. By adding this function, it’s also possible to use the theme version constant for cache
@@ -29,7 +29,7 @@ function get_icon( $icon_name, $width, $height, $args = [] ) {
 }
 
 /**
- * Return HTML for an accessible SVG icon in an icon sprite.
+ * Returns HTML for an accessible SVG icon in an icon sprite.
  *
  * Has the possibility to add a description for the icon to provide better accessibility.
  *
@@ -121,7 +121,7 @@ function get_svg_icon( $path, $width = '', $height = '', $args = [] ) {
 }
 
 /**
- * Turn a value and a name into an HTML attribute.
+ * Turns a value and a name into an HTML attribute.
  *
  * @since 1.0.0
  *
@@ -138,7 +138,7 @@ function prepare_html_tag_attribute( $value = '', $name = '' ) {
 }
 
 /**
- * Get the URI to the icon sprite.
+ * Gets the URI to the icon sprite.
  *
  * @api
  * @since 1.0.0
