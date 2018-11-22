@@ -97,7 +97,17 @@ echo get_svg_icon(
 
 **Returns:** `string` The URI to the icon sprite. Default `build/icons/icons.svg`
 
----
+## Filters
+
+### get_icon_url
+
+The default location for the icon sprite is `build/icons/icons.svg`. If you’ve set up your theme with a different folder structure, you can use the `get_icon_url` filter to use a different URL throughout this library:
+
+```php
+add_filter( 'get_icon_url', function( $icon_url ) {
+    return 'absolute/path/to/your/icon/sprite.svg';
+} );
+```
 
 ## Twig Functions
 
