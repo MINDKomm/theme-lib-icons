@@ -145,5 +145,6 @@ function prepare_html_tag_attribute( $value = '', $name = '' ) {
  * @return string The URI to the icon sprite. Default `build/icons/icons.svg`
  */
 function get_icon_url() {
-	return mix( 'build/icons/icons.svg' );
+	$icon_url = apply_filters('get_icon_url', mix( 'build/icons/icons.svg' ));
+	return $icon_url;
 }
